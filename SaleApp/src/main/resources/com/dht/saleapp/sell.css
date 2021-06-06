@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2021, 8:45:30 PM
+    Author     : HUU NGHI
+*/
+
+.button:pressed:hover {
+   
+    -fx-font-weight: bold;
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+
+.button:hover {
+   
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+.button:active{
+    -fx-background-color:  #007ac1;
+}
+.button{
+   -fx-background-color:   #0277bd;
+   -fx-text-fill: white;
+}
+.table-view .column-header,.table-view .column-header-background .filler{
+    -fx-cell-size:20;
+    -fx-background-color:#F7B5B0;
+    -fx-text-background-color: #fff;
+}
+.date-picker > .text-field  {
+    
+    -fx-text-fill: #B90909;
+    -fx-font-size: 17px;
+}

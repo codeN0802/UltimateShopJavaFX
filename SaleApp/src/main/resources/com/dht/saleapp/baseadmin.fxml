@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<SplitPane dividerPositions="0.2342" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1197.0" stylesheets="@base.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dht.saleapp.BaseadminController">
+  <items>
+    <AnchorPane fx:id="paneLeft" maxWidth="295.0" minHeight="0.0" minWidth="0.0" prefHeight="699.0" prefWidth="295.0" stylesheets="@base.css">
+         <children>
+            <AnchorPane fx:id="paneMenuHolder" layoutY="101.0" prefHeight="598.0" prefWidth="280.0" style="-fx-background-radius: 0 50 50 0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="101.0">
+               <children>
+                  <JFXButton fx:id="btnProduct" alignment="BASELINE_LEFT" layoutY="26.0" onAction="#btnNavigators" prefHeight="50.0" prefWidth="280.0" ripplerFill="WHITE" style="-fx-background-radius: 60 0 0 60;" stylesheets="@base.css" text="Product Management" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/HUU%20NGHI/Desktop/it81demo/SaleApp/src/main/java/com/dht/images/icons8_new_60px.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btnProduct1" alignment="BASELINE_LEFT" layoutY="96.0" onAction="#btnNavigators" prefHeight="50.0" prefWidth="280.0" ripplerFill="WHITE" style="-fx-background-radius: 60 0 0 60;" stylesheets="@base.css" text="Customer Management" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/HUU%20NGHI/Desktop/it81demo/SaleApp/src/main/java/com/dht/images/icons8_customer_52px_1.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btnBack" alignment="BASELINE_LEFT" layoutY="376.0" onAction="#switchToLogin1" prefHeight="50.0" prefWidth="280.0" ripplerFill="WHITE" style="-fx-background-radius: 60 0 0 60;" stylesheets="@base.css" text="Log Out" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/HUU%20NGHI/Desktop/it81demo/SaleApp/src/main/java/com/dht/images/icons8_export_52px_1.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btnProduct2" alignment="BASELINE_LEFT" layoutY="166.0" onAction="#btnNavigators" prefHeight="50.0" prefWidth="280.0" ripplerFill="WHITE" style="-fx-background-radius: 60 0 0 60;" stylesheets="@base.css" text="Sell" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/HUU%20NGHI/Desktop/it81demo/SaleApp/src/main/java/com/dht/images/icons8_add_shopping_cart_64px_1.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btnProduct21" alignment="BASELINE_LEFT" layoutY="236.0" onAction="#btnNavigators" prefHeight="50.0" prefWidth="280.0" ripplerFill="WHITE" style="-fx-background-radius: 60 0 0 60;" stylesheets="@base.css" text="Order Management" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/HUU%20NGHI/Desktop/it81demo/SaleApp/src/main/java/com/dht/images/icons8_purchase_order_52px.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btnProduct3" alignment="BASELINE_LEFT" layoutY="306.0" onAction="#btnNavigators" prefHeight="50.0" prefWidth="280.0" ripplerFill="WHITE" style="-fx-background-radius: 60 0 0 60;" stylesheets="@base.css" text="Statistic" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <graphic>
+                        <ImageView fitHeight="39.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/HUU%20NGHI/Desktop/it81demo/SaleApp/src/main/java/com/dht/images/icons8_investment_portfolio_64px.png" />
+                           </image>
+                           <effect>
+                              <ColorAdjust brightness="1.0" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children></AnchorPane>
+            <ImageView fitHeight="67.0" fitWidth="69.0" layoutX="5.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0">
+               <image>
+                  <Image url="file:/C:/Users/HUU%20NGHI/Desktop/it81demo/SaleApp/src/main/java/com/dht/images/icons8_gas_52px_4.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="62.0" layoutY="37.0" prefHeight="27.0" prefWidth="164.0" text="Ultimate Manager" textAlignment="CENTER" textFill="#ec1616">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Line endX="622.5858764648438" endY="11.199996948242188" layoutX="-345.0" layoutY="70.0" startX="346.68585205078125" startY="11.199996948242188" stroke="#ec1616" AnchorPane.leftAnchor="1.18585205078125" AnchorPane.rightAnchor="1.91412353515625" />
+         </children>
+    </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <AnchorPane fx:id="paneRight" layoutX="6.0" prefHeight="698.0" prefWidth="1169.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.8000000000000682">
+               <children>
+                  <Text fx:id="txtname" fill="#2dff70" layoutX="38.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="429.59991455078125" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="448.40008544921875" />
+               </children></AnchorPane>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

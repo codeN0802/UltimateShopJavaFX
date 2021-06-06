@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="box" prefHeight="546.0" prefWidth="133.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dht.saleapp.SidePanelController">
+   <children>
+      <Label fx:id="lblname" alignment="CENTER" contentDisplay="RIGHT" prefHeight="43.0" prefWidth="138.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnLogout" contentDisplay="RIGHT" onAction="#switchToLogin1" prefHeight="43.0" prefWidth="138.0" style="-fx-background-radius: 90;" styleClass="JFXButton" stylesheets="@SidePane.css" text="Log out">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</VBox>

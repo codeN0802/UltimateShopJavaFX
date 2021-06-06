@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 29, 2021, 11:48:21 AM
+    Author     : HUU NGHI
+*/
+
+.split-pane > .split-pane-divider {
+    -fx-padding: 0 0.004;
+    -fx-background-color: #FFFFFF;
+}
+
+.root{
+    -fx-background-color: #FFFFFF;
+}
+
+.button {
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-border-radius: 0 0 0 0;
+}
+
+#topPane {
+    -fx-background-color: #FFFFFF;
+}
+
+.button:pressed:hover {
+    -fx-background-color: #F7B5B0;
+    -fx-font-weight: bold;
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+
+.button:hover {
+    -fx-background-color: #F7B5B0;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+#paneRight {
+    -fx-border-color: #ffffff;
+}
+#paneMenuHolder{
+     -fx-background-color: linear-gradient(to  bottom,#1BFFFF , #2E3192 );
+}

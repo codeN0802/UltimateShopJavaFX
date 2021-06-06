@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 12, 2021, 12:34:41 AM
+    Author     : HUU NGHI
+*/
+
+AnchorPane{
+    -fx-background-color: linear-gradient(to right bottom,#ff3366 , #2998ff );
+}
+JFXComboBox{
+    -fx-font-size: 18px;
+}
+.button:pressed:hover {
+   
+    -fx-font-weight: bold;
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+
+.button:hover {
+   
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
